@@ -1,6 +1,6 @@
 # Orbit Integration
 
-This repository contains orbital parameters for 72 dwarf galaxies in the vicinity of the Milky Way (MW), derived from accurate phase-space coordinates from the literature and six time-evolving gravitational potentials accounting for the mutual interaction of the MW and the Large Magellanic Cloud (LMC). Full details are provided in Martínez-García et al. (in prep.).
+This repository contains orbital parameters for 72 dwarf galaxies in the vicinity of the Milky Way (MW), derived from accurate phase-space coordinates from the literature and six time-evolving gravitational potentials accounting for the mutual interaction of the MW and the Large Magellanic Cloud (LMC). Full details are provided in Martínez-García et al. (in press).
 
 ## Repository Structure
 
