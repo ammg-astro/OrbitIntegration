@@ -1,5 +1,9 @@
 # Orbit Integration
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2606.13787"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2606.13787-b31b1b.svg"></a>
+</p>
+
 This repository contains orbital parameters for 72 dwarf galaxies in the vicinity of the Milky Way (MW), derived from accurate phase-space coordinates from the literature and six time-evolving gravitational potentials accounting for the mutual interaction of the MW and the Large Magellanic Cloud (LMC). Full details are provided in [Martínez-García et al. (2026)](https://ui.adsabs.harvard.edu/abs/2026A%26A...714A.206M/abstract).
 
 ## Repository Structure
@@ -43,3 +47,26 @@ Orbital parameters are derived from the set of MC realizations of each galaxy. T
 | `r_apo` | kpc | Most recent apocentre with respect to the LMC |
 | `t_apo` | Gyr | Time of the most recent apocentre |
 | `p_LMC` | — | Probability of LMC association |
+
+## Citing
+
+If you use the orbital parameters reported in this repository, please cite [Martínez-García et al. (2026)](https://ui.adsabs.harvard.edu/abs/2026A%26A...714A.206M/abstract).
+
+```bibtex
+@ARTICLE{MartinezGarcia2026,
+       author = {{Mart{\'\i}nez-Garc{\'\i}a}, Alberto Manuel and {del Pino}, Andr{\'e}s and {van der Marel}, Roeland P. and {Battaglia}, Giuseppina and {{\L}okas}, Ewa L. and {Vitral}, Eduardo and {McKinnon}, Kevin A. and {Watkins}, Laura L. and {Kallivayalil}, Nitya and {Tony Sohn}, Sangmo and {Thomas}, Guillaume F. and {Cardona-Barrero}, Salvador and {Anguiano}, Borja and {Alzate-Trujillo}, Jairo A. and {Nogueras-Lara}, Francisco and {Bennet}, Paul and {Hidalgo-Pinilla}, Adri{\'a}n},
+        title = "{Reconstructing the orbits of Milky Way dwarf galaxies: A Large Magellanic Cloud perspective}",
+      journal = {\aap},
+     keywords = {galaxies: dwarf, galaxies: kinematics and dynamics, Local Group, Magellanic Clouds, Astrophysics of Galaxies},
+         year = 2026,
+        month = oct,
+       volume = {714},
+          eid = {A206},
+        pages = {A206},
+          doi = {10.1051/0004-6361/202661398},
+archivePrefix = {arXiv},
+       eprint = {2606.13787},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2026A&A...714A.206M},
+}
+```
